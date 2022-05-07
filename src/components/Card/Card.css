@@ -3,7 +3,9 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    padding: 25px;
+    gap: 10px;
+    padding: 45px;
+    min-height: 260px;
     background-color: var(--secondary);
     color: var(--main);
 }
@@ -29,6 +31,7 @@
     font-size: 36px;
     font-weight: 400;
     border-bottom: 1px solid var(--main);
+    flex: 3 1;
 }
 
 .sub {
@@ -58,6 +61,12 @@
     transform: translate(4%, 20%);
 }
 
+.details-btn:hover {
+    border: 2px solid var(--main);
+    background-color: var(--secondary);
+    color: var(--main);    
+}
+
 .details-btn .arrow-icon {
     position: absolute;
     right: 5px;
@@ -65,4 +74,10 @@
     font-size: 36px;
     font-weight: 700;
     transform: translateY(-50%);
+}
+
+@media screen and (max-width: 900px) {
+    .card {
+        max-width: 450px;
+    }
 }

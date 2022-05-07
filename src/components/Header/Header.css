@@ -11,6 +11,8 @@ header {
     padding-inline: 20px;
     border-bottom: 1px solid var(--secondary);
     color: var(--secondary);
+    background-color: var(--main);
+    z-index: 100;
 }
 
 header h1,
