@@ -19,3 +19,7 @@ header h1,
 .menu {
     font-size: 36px;
 }
+
+.menu {
+    cursor: pointer;
+}
