@@ -1,8 +1,12 @@
 import React from 'react'
+import Card from '../Card/Card'
+import './Cards.css'
 
-const Cards = () => {
+const Cards = ({cards}) => {
   return (
-    <div>Cards</div>
+    <section className='cards-container'>
+        {cards.map(card => <Card card={card}/>)}
+    </section>
   )
 }
 

@@ -5,12 +5,10 @@ import Cards from './components/Cards/Cards';
 
 const App = () => {
 
-  console.log(data.cards);
-
   return (
     <>
       <Header />
-      <Cards />
+      <Cards cards={data.cards}/>
     </>
   )
 }
