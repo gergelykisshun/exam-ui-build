@@ -11,9 +11,9 @@ const Card = ({card, num}) => {
       <h2 className='title'>{title}</h2>
       <h3 className='sub'>{sub}</h3>
       <p className='text'>{text}</p>
-      <button>
-        Details
-        <i className="material-symbols-outlined">
+      <button className='details-btn'>
+        <p style={{ fontWeight: 400}}>details</p>
+        <i className="arrow-icon material-symbols-outlined">
           arrow_forward
         </i>
       </button>
