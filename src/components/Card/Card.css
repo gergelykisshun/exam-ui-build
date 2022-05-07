@@ -76,7 +76,7 @@
     transform: translateY(-50%);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 930px) {
     .card {
         max-width: 410px;
     }
